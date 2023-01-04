@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 19px;
+}
+
+.Counter_container{
+    background-color: rgb(102, 102, 201);
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#input{
+   width: 100%;
+   margin: 1.2rem;
+}
+
+.buttons{
+    padding: 0.6rem;
+}
+
+.buttons button{
+   padding: 0.5rem;
+   border: 1px solid;
+}
+
+.buttons .subtract{
+    background-color: rgb(148, 53, 53);
+}
+
+.buttons .add{
+   background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
